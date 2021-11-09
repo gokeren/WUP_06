@@ -71,7 +71,7 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 
 
 
-## Now with less data
+## Now with more data
 
 ```{r}
 table2 <- xtabs(~race + cappun, data=mydata)
@@ -87,7 +87,7 @@ colPerc(table2)
 `
 
 
-## Less data version
+## More data version
 
 ```{r}
 chisq.test(table2)
